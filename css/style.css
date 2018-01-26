@@ -6,36 +6,22 @@ body {
     font-family: "SF Pro Text", Helvetica, Arial, sans-serif;
     font-size: 12px;
     color: black;
-    background-color: pink;
+    background-color: #3E7C9E;
 }
 
 /* top nav bar styling */
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0px 0px 15px;
   position: fixed top;
   width: 375px;
-  height: 217px;
-  background-color: grey;
+  height: 90px;
+  background-color: #253E4C;
 }
-
-/* don't seem to need this
-.content {
-  width: 95%;
-  float: left;
-  }
-*/
-
-/* makes the columns width the size of content
-div {
-  float: left;
-}
-/* new code ends */
 
 /* full table styling i.e. border/background color */
 .tableview {
-  border: 1px solid black;
-  background-color:#CCC
+  background-color:#253E4C;
 }
 
 /* ----- ROW FORMATING ----- */
@@ -60,42 +46,44 @@ body, .tableview p:last-of-type, .tableview p:first-of-type, .tableview .header 
 header {
   background-color: grey;
   color: white;
-  display: inline-block;
   width: 100%;
   position: relative;
 }
 
 /* ----- TEXT STYLING ----- */
 
-.tableview h1 {
-  font-size: 16px;
-  line-height: 26.4px;
-  font-weight: 500;
-  padding-top: 8px;
-  padding-left: 110px; /* is there a center align option? */
+ h1 {
+   color: white;
+   font-size: 22px;
+   font-weight: 300;
+   line-height: 26.4px;
+   padding-top: 8px;
+   padding-left: 90px; /* is there a center align option? */
 }
 
 .tableview h2 {
+    display: inline-block;
     font-size: 12px;
     line-height: 15.4px;
     font-weight: 500;
     padding:8px;
-    width: 100%;
-}
-
-.tableview h3 {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 12px;
-    width: 32.5%;
-    padding: 8px
+    width: 32.7%;
 }
 
 .tableview p {
-  display: inline-block;
+    display: inline-block;
     padding:8px;
     margin:0px 0px 1px 0px;
-    width: 33.3%
+    width: 33.3%;
+}
+
+.tableview li {
+  color: #FBAB3C;
+  font-size: 10px;
+  display: inline-block;
+  margin: 30px 50px 0px;
+  width: 5%;
+  height: 20px;
 }
 
 /* this "contains" the size of the table-- should be set to size of phone screen */
@@ -104,3 +92,15 @@ header {
   width: 375px;
   height: 667px;
 }
+
+.tableview span {
+  font-weight: 600;
+}
+
+
+
+/* makes the columns width the size of content
+div {
+  float: left;
+}
+/* new code ends */
