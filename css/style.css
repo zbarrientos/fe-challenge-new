@@ -74,21 +74,6 @@ header {
     width: 33.3%;
 }
 
-.tableview li {
-    color: #FBAB3C;
-    display: inline-block;
-    font-size: 10px;
-    margin: 8px 50px 10px; /* top horizontal bottom */
-    width: 5%;
-}
-
-.tableview li img {
-  height: 20px;
-  margin-bottom: 5px;
-  margin-left: 6px;
-  width: 20px;
-}
-
 .tableview span {
   font-weight: 600;
 }
@@ -99,4 +84,27 @@ header {
   height: 667px;
   margin: 0 auto;
   width: 375px;
+}
+
+/* Footer */
+
+footer {
+background-color: #253E4C;
+position: fixed;
+width: 375px;
+
+}
+
+li {
+   color: #FBAB3C;
+   display: inline-block;
+   font-size: 10px;
+   margin: 8px 50px 10px; /* top horizontal bottom */
+   width: 5%;
+}
+
+li img {
+ height: 20px;
+ margin-left: 6px;
+ width: 20px;
 }
