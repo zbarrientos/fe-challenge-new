@@ -5,14 +5,14 @@
 body {
     background-color: #3E7C9E;
     color: black;
-    font-family: "SF Pro Text", Helvetica, Arial, sans-serif;
+    font-family: "SF Pro Text", "Helvetica", Arial, sans-serif;
     font-size: 12px;
 }
 
 /* top nav bar styling */
 nav {
     background-color: #253E4C;
-    height: 95px;
+    height: 80px;
     margin: 0 auto;
     position: sticky;
     top: 0px;
@@ -21,7 +21,7 @@ nav {
 
 .arrow-left {
   padding-left: 8px;
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 /* full table styling i.e. border/background color */
@@ -50,19 +50,21 @@ header {
 
 /* ----- TEXT STYLING ----- */
 
- h1 {
+ .arrow-left h1 {
    color: white;
+   display: inline-block;
    font-size: 22px;
    font-weight: 300;
-   line-height: 26.4px;
+   padding-left: 80px;
    text-align: center;
+
 }
 
 .tableview h2 {
     display: inline-block;
     font-size: 12px;
     font-weight: 500;
-    line-height: 15.4px;
+    line-height: 22px;
     padding:8px;
     width: 32.7%;
 }
@@ -71,6 +73,7 @@ header {
     display: inline-block;
     margin:0px 0px 1px 0px;
     padding:8px;
+    line-height: 25px;
     width: 33.3%;
 }
 
@@ -106,5 +109,6 @@ li {
 li img {
  height: 20px;
  margin-left: 6px;
+ padding-bottom: 2px;
  width: 20px;
 }
