@@ -1,6 +1,8 @@
 # fe-challenge-new
 Front End Fundamentals Challenge - BUSY BUS APP
 
+LINK TO APP: https://zullybus.netlify.com/
+
 Design brief:
 
 In this exercise you are tasked with helping create a mobile app called BusyBus, an application operated by the local city transit system 
